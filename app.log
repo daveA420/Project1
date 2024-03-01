@@ -1,0 +1,419 @@
+2024-02-23T04:18:44.675Z [info]: Incoming GET : /employees
+2024-02-23T04:21:31.136Z [info]: Incoming GET : /employees
+2024-02-23T04:24:04.407Z [info]: Incoming GET : /employees
+2024-02-23T04:24:50.142Z [info]: Incoming GET : /employees
+2024-02-23T04:25:36.047Z [info]: Incoming GET : /employees?name=john%20smith
+2024-02-23T04:27:07.517Z [info]: Incoming GET : /employees
+2024-02-23T04:27:14.464Z [info]: Incoming GET : /employees?name=john%20smith
+2024-02-23T23:06:04.027Z [info]: Incoming POST : /employees/register
+2024-02-23T23:06:38.613Z [info]: Incoming POST : /employees/register
+2024-02-23T23:08:10.055Z [info]: Incoming POST : /employees/register
+2024-02-23T23:08:49.194Z [info]: Incoming POST : /employees/register
+2024-02-23T23:08:49.378Z [error]: One or more parameter values were invalid: Missing the key joined_date in the item
+2024-02-23T23:13:52.033Z [info]: Incoming POST : /employees/register
+2024-02-23T23:14:46.400Z [info]: Incoming POST : /employees/register
+2024-02-23T23:17:17.019Z [info]: Incoming POST : /employees/register
+2024-02-23T23:17:30.061Z [info]: Incoming GET : /employees
+2024-02-24T01:39:49.680Z [info]: Incoming GET : /employees
+2024-02-24T01:59:19.882Z [info]: Incoming GET : /employees
+2024-02-24T01:59:29.651Z [info]: Incoming POST : /employees/register
+2024-02-24T01:59:39.569Z [info]: Incoming GET : /employees
+2024-02-24T18:20:41.484Z [info]: Incoming POST : /employees/register
+2024-02-24T18:21:10.091Z [info]: Incoming POST : /employees/register
+2024-02-24T18:21:17.173Z [info]: Incoming GET : /employees
+2024-02-24T18:21:40.193Z [info]: Incoming GET : /employees?name=david
+2024-02-24T18:21:53.864Z [info]: Incoming GET : /employees?name=cuco
+2024-02-24T18:26:57.027Z [info]: Incoming POST : /employees/register
+2024-02-24T18:27:15.758Z [info]: Incoming GET : /employees?name=cuco
+2024-02-24T18:27:22.354Z [info]: Incoming GET : /employees?name=david
+2024-02-24T18:27:33.573Z [info]: Incoming POST : /employees/register
+2024-02-24T18:30:15.674Z [info]: Incoming POST : /employees/register
+2024-02-24T18:30:50.811Z [info]: Incoming POST : /employees/register
+2024-02-24T18:31:14.375Z [info]: Incoming GET : /employees
+2024-02-24T19:09:13.548Z [info]: Incoming POST : /employees/login
+2024-02-24T19:09:24.308Z [info]: Incoming POST : /employees/register
+2024-02-24T19:09:38.163Z [info]: Incoming POST : /employees/login
+2024-02-24T19:10:37.577Z [info]: Incoming POST : /employees/register
+2024-02-24T20:09:55.639Z [info]: Incoming POST : /employees/login
+2024-02-24T20:16:54.771Z [info]: Incoming GET : /employees/protected
+2024-02-24T20:17:02.049Z [info]: Incoming POST : /employees/login
+2024-02-24T20:17:29.394Z [info]: Incoming GET : /employees/protected
+2024-02-24T20:17:44.886Z [info]: Incoming GET : /employees/protected
+2024-02-24T20:18:09.449Z [info]: Incoming GET : /employees/protected
+2024-02-24T20:19:43.918Z [info]: Incoming GET : /employees/protected
+2024-02-24T20:33:21.717Z [info]: Incoming GET : /employees/protected
+2024-02-24T20:34:14.935Z [info]: Incoming GET : /employees/protected
+2024-02-24T20:34:19.562Z [info]: Incoming GET : /employees/protected
+2024-02-24T20:34:27.590Z [info]: Incoming POST : /employees/login
+2024-02-24T20:34:41.866Z [info]: Incoming GET : /employees/protected
+2024-02-24T20:34:54.117Z [info]: Incoming GET : /employees/protected
+2024-02-24T20:36:15.982Z [info]: Incoming POST : /employees/login
+2024-02-24T20:36:21.188Z [info]: Incoming GET : /employees/protected
+2024-02-24T20:37:09.886Z [info]: Incoming GET : /employees/protected
+2024-02-24T20:38:32.184Z [info]: Incoming POST : /employees/login
+2024-02-24T20:39:35.989Z [info]: Incoming POST : /employees/login
+2024-02-24T20:39:36.032Z [error]: ExpressionAttributeValues must not be empty
+2024-02-24T20:39:59.397Z [info]: Incoming POST : /employees/login
+2024-02-24T23:08:46.003Z [error]: One or more parameter values were invalid: Missing the key id in the item
+2024-02-24T23:22:20.416Z [error]: One or more parameter values were invalid: Missing the key id in the item
+2024-02-24T23:24:28.984Z [error]: One or more parameter values were invalid: Type mismatch for key id expected: S actual: N
+2024-02-24T23:25:29.835Z [error]: One or more parameter values were invalid: Type mismatch for key id expected: S actual: N
+2024-02-25T21:58:39.529Z [error]: Query condition missed key schema element: id
+2024-02-25T21:58:39.575Z [error]: Query condition missed key schema element: id
+2024-02-25T22:03:26.997Z [error]: Cannot read properties of undefined (reading '0')
+2024-02-25T22:03:27.002Z [error]: Cannot read properties of undefined (reading '0')
+2024-02-25T22:06:05.251Z [error]: The provided key element does not match the schema
+2024-02-25T22:06:05.295Z [error]: The provided key element does not match the schema
+2024-02-25T22:06:31.524Z [error]: The provided key element does not match the schema
+2024-02-25T22:06:31.568Z [error]: The provided key element does not match the schema
+2024-02-25T22:07:29.555Z [error]: Either the KeyConditions or KeyConditionExpression parameter must be specified in the request.
+2024-02-25T22:07:29.599Z [error]: Either the KeyConditions or KeyConditionExpression parameter must be specified in the request.
+2024-02-25T22:10:02.628Z [error]: Cannot read properties of undefined (reading '0')
+2024-02-25T22:10:02.634Z [error]: Cannot read properties of undefined (reading '0')
+2024-02-25T22:10:16.332Z [error]: Query condition missed key schema element: username
+2024-02-25T22:10:16.375Z [error]: Query condition missed key schema element: username
+2024-02-25T22:10:58.640Z [error]: Query condition missed key schema element: id
+2024-02-25T22:10:58.685Z [error]: Query condition missed key schema element: id
+2024-02-25T22:13:53.681Z [error]: Query condition missed key schema element: id
+2024-02-25T22:13:53.725Z [error]: Query condition missed key schema element: id
+2024-02-25T22:15:36.011Z [error]: Invalid ProjectionExpression: Attribute name is a reserved keyword; reserved keyword: role
+2024-02-25T22:15:36.054Z [error]: Invalid ProjectionExpression: Attribute name is a reserved keyword; reserved keyword: role
+2024-02-25T22:16:02.164Z [error]: Invalid ProjectionExpression: Attribute name is a reserved keyword; reserved keyword: role
+2024-02-25T22:16:02.213Z [error]: Invalid ProjectionExpression: Attribute name is a reserved keyword; reserved keyword: role
+2024-02-25T22:16:39.801Z [error]: Invalid ProjectionExpression: Attribute name is a reserved keyword; reserved keyword: role
+2024-02-25T22:16:39.846Z [error]: Invalid ProjectionExpression: Attribute name is a reserved keyword; reserved keyword: role
+2024-02-25T22:18:38.142Z [error]: Unexpected token o in JSON at position 1
+2024-02-25T22:18:38.182Z [error]: Unexpected token u in JSON at position 0
+2024-02-25T22:19:50.105Z [error]: Unexpected token o in JSON at position 1
+2024-02-25T22:19:50.148Z [error]: Unexpected token u in JSON at position 0
+2024-02-25T22:21:56.400Z [error]: Query condition missed key schema element: id
+2024-02-25T22:21:56.443Z [error]: Query condition missed key schema element: id
+2024-02-26T02:26:37.172Z [info]: Incoming GET : /tickets?status=pending
+2024-02-26T02:27:11.269Z [info]: Incoming GET : /tickets?status=pending
+2024-02-26T02:28:28.048Z [info]: Incoming GET : /tickets?status=pending
+2024-02-26T15:42:19.837Z [info]: Incoming GET : /tickets?author=1
+2024-02-26T15:43:09.407Z [info]: Incoming GET : /tickets?author=1
+2024-02-26T15:43:40.418Z [info]: Incoming GET : /tickets?author=1
+2024-02-26T17:34:02.469Z [info]: Incoming GET : /tickets?author=1
+2024-02-26T17:35:50.108Z [info]: Incoming GET : /tickets?author=1
+2024-02-26T17:36:59.641Z [info]: Incoming GET : /tickets?author=1
+2024-02-26T17:39:11.965Z [info]: Incoming GET : /tickets?author=1
+2024-02-26T17:40:11.344Z [info]: Incoming GET : /tickets?author=1
+2024-02-26T17:42:00.370Z [info]: Incoming GET : /tickets?author=1
+2024-02-26T17:42:14.657Z [info]: Incoming GET : /tickets?status=pending
+2024-02-26T17:42:48.337Z [info]: Incoming GET : /tickets?status=pending
+2024-02-26T17:42:55.486Z [info]: Incoming GET : /tickets?author=1
+2024-02-26T17:43:18.974Z [info]: Incoming GET : /tickets?author=1
+2024-02-27T06:24:12.777Z [info]: Incoming POST : /tickets
+2024-02-27T06:24:32.204Z [info]: Incoming POST : /tickets
+2024-02-28T03:22:43.911Z [info]: Incoming POST : /tickets
+2024-02-28T05:50:53.869Z [info]: Incoming POST : /tickets
+2024-02-28T05:50:54.059Z [error]: 1 validation error detected: Value null at 'item' failed to satisfy constraint: Member must not be null
+2024-02-28T05:53:42.977Z [info]: Incoming POST : /tickets
+2024-02-28T05:53:46.342Z [info]: Incoming POST : /tickets
+2024-02-28T05:53:49.409Z [info]: Incoming POST : /tickets
+2024-02-28T05:53:49.586Z [error]: 1 validation error detected: Value null at 'item' failed to satisfy constraint: Member must not be null
+2024-02-28T05:56:29.060Z [info]: Incoming POST : /tickets
+2024-02-28T05:56:29.248Z [error]: One or more parameter values were invalid: Type mismatch for Index Key author Expected: S Actual: N IndexName: author-index
+2024-02-28T05:58:06.652Z [info]: Incoming POST : /tickets
+2024-02-28T06:02:15.718Z [info]: Incoming GET : /tickets?status=pending
+2024-02-28T06:04:25.707Z [info]: Incoming POST : /tickets
+2024-02-28T06:04:31.721Z [info]: Incoming GET : /tickets?status=pending
+2024-02-28T19:38:04.574Z [info]: Incoming PUT : /tickets/1
+2024-02-28T19:44:30.929Z [info]: Incoming PUT : /tickets/1
+2024-02-28T19:46:05.819Z [info]: Incoming PUT : /tickets/1
+2024-02-28T19:46:34.019Z [info]: Incoming PUT : /tickets/1
+2024-02-28T19:47:15.233Z [info]: Incoming PUT : /tickets/1
+2024-02-28T19:49:26.355Z [info]: Incoming PUT : /tickets/1
+2024-02-28T19:53:06.422Z [info]: Incoming POST : /tickets
+2024-02-28T19:53:09.496Z [info]: Incoming POST : /tickets
+2024-02-28T19:53:12.654Z [info]: Incoming POST : /tickets
+2024-02-28T20:01:13.869Z [info]: Incoming PUT : /tickets/1
+2024-02-28T20:01:37.427Z [info]: Incoming PUT : /tickets/1
+2024-02-28T20:14:09.231Z [info]: Incoming GET : /tickets/1
+2024-02-28T20:14:37.530Z [info]: Incoming GET : /tickets/1
+2024-02-28T20:15:32.913Z [info]: Incoming GET : /tickets/1
+2024-02-28T20:17:59.615Z [info]: Incoming GET : /tickets/1
+2024-02-28T20:18:31.557Z [info]: Incoming GET : /tickets/1
+2024-02-28T20:18:55.467Z [info]: Incoming GET : /tickets/0
+2024-02-28T20:19:03.284Z [info]: Incoming GET : /tickets/2
+2024-02-28T20:19:08.331Z [info]: Incoming GET : /tickets/6
+2024-02-28T20:19:12.967Z [info]: Incoming GET : /tickets/1
+2024-02-28T20:32:10.090Z [info]: Incoming GET : /employees/1
+2024-02-28T20:34:00.769Z [info]: Incoming GET : /employees/1
+2024-02-28T20:34:33.335Z [info]: Incoming GET : /employees/1
+2024-02-28T20:35:43.271Z [info]: Incoming GET : /employees/1
+2024-02-28T20:36:13.098Z [info]: Incoming GET : /employees/1
+2024-02-28T21:25:04.921Z [info]: Incoming PUT : /tickets/1
+2024-02-28T21:27:07.581Z [info]: Incoming PUT : /tickets/1
+2024-02-28T21:27:13.342Z [info]: Incoming PUT : /tickets/1
+2024-02-28T21:28:19.175Z [info]: Incoming PUT : /tickets/1
+2024-02-28T21:29:18.320Z [info]: Incoming PUT : /tickets/3
+2024-02-28T21:30:45.305Z [info]: Incoming PUT : /tickets/3
+2024-02-28T21:31:15.408Z [info]: Incoming PUT : /tickets/3
+2024-02-28T21:31:31.147Z [info]: Incoming PUT : /tickets/1
+2024-02-28T21:38:43.304Z [info]: Incoming PUT : /tickets/2
+2024-02-28T21:40:55.678Z [info]: Incoming GET : /tickets?status=pending
+2024-02-28T21:41:21.955Z [info]: Incoming PUT : /tickets/1
+2024-02-28T21:41:26.270Z [info]: Incoming GET : /tickets/1
+2024-02-28T21:41:34.705Z [info]: Incoming PUT : /tickets/3
+2024-02-28T21:41:38.847Z [info]: Incoming PUT : /tickets/2
+2024-02-28T21:50:57.682Z [info]: Incoming PUT : /tickets/2
+2024-02-28T21:51:33.293Z [info]: Incoming PUT : /tickets/07013ac0-abcb-49c2-b119-7e0581645665
+2024-02-28T21:53:44.709Z [info]: Incoming PUT : /tickets/07013ac0-abcb-49c2-b119-7e0581645665
+2024-02-28T21:55:10.276Z [info]: Incoming PUT : /tickets/07013ac0-abcb-49c2-b119-7e0581645665
+2024-02-28T22:20:45.093Z [info]: Incoming PUT : /tickets/07013ac0-abcb-49c2-b119-7e0581645665
+2024-02-28T22:21:14.020Z [info]: Incoming PUT : /tickets/07013ac0-abcb-49c2-b119-7e0581645665
+2024-02-28T22:22:09.663Z [info]: Incoming PUT : /tickets/07013ac0-abcb-49c2-b119-7e0581645665
+2024-02-28T22:23:22.679Z [info]: Incoming PUT : /tickets/07013ac0-abcb-49c2-b119-7e0581645665
+2024-02-28T22:23:44.624Z [info]: Incoming PUT : /tickets/07013ac0-abcb-49c2-b119-7e0581645665
+2024-02-28T22:24:40.929Z [info]: Incoming PUT : /tickets/07013ac0-abcb-49c2-b119-7e0581645665
+2024-02-28T22:26:07.462Z [info]: Incoming PUT : /tickets/07013ac0-abcb-49c2-b119-7e0581645665
+2024-02-28T22:26:56.475Z [info]: Incoming PUT : /tickets/07013ac0-abcb-49c2-b119-7e0581645665
+2024-02-28T22:28:51.835Z [info]: Incoming PUT : /tickets/07013ac0-abcb-49c2-b119-7e0581645665
+2024-02-28T22:29:34.905Z [info]: Incoming PUT : /tickets/07013ac0-abcb-49c2-b119-7e0581645665
+2024-02-28T22:42:46.233Z [info]: Incoming PUT : /tickets/07013ac0-abcb-49c2-b119-7e0581645665
+2024-02-28T22:43:59.099Z [info]: Incoming PUT : /tickets/07013ac0-abcb-49c2-b119-7e0581645665
+2024-02-28T22:44:12.828Z [info]: Incoming GET : /employees?name=david
+2024-02-28T22:44:18.608Z [info]: Incoming GET : /employees
+2024-02-28T22:44:22.758Z [info]: Incoming GET : /employees/1
+2024-02-28T22:44:40.543Z [info]: Incoming PUT : /tickets/1
+2024-02-28T22:44:44.472Z [info]: Incoming GET : /tickets/1
+2024-02-28T22:44:53.344Z [info]: Incoming PUT : /tickets/3
+2024-02-28T23:09:15.395Z [info]: Incoming PUT : /tickets/3
+2024-02-28T23:09:23.879Z [info]: Incoming PUT : /tickets/07013ac0-abcb-49c2-b119-7e0581645665
+2024-02-28T23:10:05.586Z [info]: Incoming PUT : /tickets/07013ac0-abcb-49c2-b119-7e0581645665
+2024-02-28T23:11:57.774Z [info]: Incoming PUT : /tickets/07013ac0-abcb-49c2-b119-7e0581645665
+2024-02-28T23:13:03.467Z [info]: Incoming PUT : /tickets/07013ac0-abcb-49c2-b119-7e0581645665
+2024-02-28T23:14:12.525Z [info]: Incoming PUT : /tickets/07013ac0-abcb-49c2-b119-7e0581645665
+2024-02-29T19:32:36.553Z [error]: Unsupported type passed: [object Object]. Pass options.convertClassInstanceToMap=true to marshall typeof object as map attribute.
+2024-02-29T19:32:57.546Z [error]: Unsupported type passed: [object Object]. Pass options.convertClassInstanceToMap=true to marshall typeof object as map attribute.
+2024-02-29T19:34:00.046Z [error]: Unsupported type passed: [object Object]. Pass options.convertClassInstanceToMap=true to marshall typeof object as map attribute.
+2024-02-29T19:36:01.931Z [error]: Unsupported type passed: function v4(options, buf, offset) {
+  if (_native.default.randomUUID && !buf && !options) {
+    return _native.default.randomUUID();
+  }
+
+  options = options || {};
+
+  const rnds = options.random || (options.rng || _rng.default)(); // Per 4.4, set bits for version and `clock_seq_hi_and_reserved`
+
+
+  rnds[6] = rnds[6] & 0x0f | 0x40;
+  rnds[8] = rnds[8] & 0x3f | 0x80; // Copy bytes to buffer, if provided
+
+  if (buf) {
+    offset = offset || 0;
+
+    for (let i = 0; i < 16; ++i) {
+      buf[offset + i] = rnds[i];
+    }
+
+    return buf;
+  }
+
+  return (0, _stringify.unsafeStringify)(rnds);
+}. Pass options.convertClassInstanceToMap=true to marshall typeof object as map attribute.
+2024-02-29T19:37:50.006Z [error]: Unsupported type passed: function v4(options, buf, offset) {
+  if (_native.default.randomUUID && !buf && !options) {
+    return _native.default.randomUUID();
+  }
+
+  options = options || {};
+
+  const rnds = options.random || (options.rng || _rng.default)(); // Per 4.4, set bits for version and `clock_seq_hi_and_reserved`
+
+
+  rnds[6] = rnds[6] & 0x0f | 0x40;
+  rnds[8] = rnds[8] & 0x3f | 0x80; // Copy bytes to buffer, if provided
+
+  if (buf) {
+    offset = offset || 0;
+
+    for (let i = 0; i < 16; ++i) {
+      buf[offset + i] = rnds[i];
+    }
+
+    return buf;
+  }
+
+  return (0, _stringify.unsafeStringify)(rnds);
+}. Pass options.convertClassInstanceToMap=true to marshall typeof object as map attribute.
+2024-02-29T19:39:32.977Z [error]: Unsupported type passed: function v4(options, buf, offset) {
+  if (_native.default.randomUUID && !buf && !options) {
+    return _native.default.randomUUID();
+  }
+
+  options = options || {};
+
+  const rnds = options.random || (options.rng || _rng.default)(); // Per 4.4, set bits for version and `clock_seq_hi_and_reserved`
+
+
+  rnds[6] = rnds[6] & 0x0f | 0x40;
+  rnds[8] = rnds[8] & 0x3f | 0x80; // Copy bytes to buffer, if provided
+
+  if (buf) {
+    offset = offset || 0;
+
+    for (let i = 0; i < 16; ++i) {
+      buf[offset + i] = rnds[i];
+    }
+
+    return buf;
+  }
+
+  return (0, _stringify.unsafeStringify)(rnds);
+}. Pass options.convertClassInstanceToMap=true to marshall typeof object as map attribute.
+2024-02-29T19:39:43.394Z [error]: Unsupported type passed: function v4(options, buf, offset) {
+  if (_native.default.randomUUID && !buf && !options) {
+    return _native.default.randomUUID();
+  }
+
+  options = options || {};
+
+  const rnds = options.random || (options.rng || _rng.default)(); // Per 4.4, set bits for version and `clock_seq_hi_and_reserved`
+
+
+  rnds[6] = rnds[6] & 0x0f | 0x40;
+  rnds[8] = rnds[8] & 0x3f | 0x80; // Copy bytes to buffer, if provided
+
+  if (buf) {
+    offset = offset || 0;
+
+    for (let i = 0; i < 16; ++i) {
+      buf[offset + i] = rnds[i];
+    }
+
+    return buf;
+  }
+
+  return (0, _stringify.unsafeStringify)(rnds);
+}. Pass options.convertClassInstanceToMap=true to marshall typeof object as map attribute.
+2024-02-29T19:40:44.567Z [error]: Unsupported type passed: function v4(options, buf, offset) {
+  if (_native.default.randomUUID && !buf && !options) {
+    return _native.default.randomUUID();
+  }
+
+  options = options || {};
+
+  const rnds = options.random || (options.rng || _rng.default)(); // Per 4.4, set bits for version and `clock_seq_hi_and_reserved`
+
+
+  rnds[6] = rnds[6] & 0x0f | 0x40;
+  rnds[8] = rnds[8] & 0x3f | 0x80; // Copy bytes to buffer, if provided
+
+  if (buf) {
+    offset = offset || 0;
+
+    for (let i = 0; i < 16; ++i) {
+      buf[offset + i] = rnds[i];
+    }
+
+    return buf;
+  }
+
+  return (0, _stringify.unsafeStringify)(rnds);
+}. Pass options.convertClassInstanceToMap=true to marshall typeof object as map attribute.
+2024-02-29T19:41:32.291Z [error]: Unsupported type passed: [object Object]. Pass options.convertClassInstanceToMap=true to marshall typeof object as map attribute.
+2024-02-29T20:00:02.074Z [info]: Incoming GET : /employees?name=david
+2024-02-29T20:00:07.610Z [info]: Incoming GET : /employees
+2024-02-29T20:00:12.824Z [info]: Incoming GET : /employees/1
+2024-02-29T20:00:41.315Z [info]: Incoming POST : /employees/register
+2024-02-29T20:01:15.786Z [info]: Incoming POST : /employees/register
+2024-02-29T20:01:40.746Z [info]: Incoming POST : /employees/login
+2024-02-29T20:01:59.956Z [info]: Incoming POST : /employees/login
+2024-02-29T20:03:13.798Z [info]: Incoming POST : /employees/register
+2024-02-29T20:04:26.586Z [info]: Incoming POST : /employees/login
+2024-02-29T20:04:30.398Z [info]: Incoming POST : /employees/login
+2024-02-29T20:04:58.335Z [info]: Incoming POST : /employees/login
+2024-02-29T20:05:12.617Z [info]: Incoming POST : /employees/login
+2024-02-29T20:05:19.355Z [info]: Incoming POST : /employees/login
+2024-02-29T20:05:47.377Z [info]: Incoming POST : /employees/login
+2024-02-29T20:12:16.063Z [info]: Incoming POST : /employees/login
+2024-02-29T20:12:19.696Z [info]: Incoming POST : /employees/login
+2024-02-29T20:12:36.184Z [info]: Incoming POST : /employees/login
+2024-02-29T20:16:34.595Z [info]: Incoming POST : /employees/login
+2024-02-29T20:16:44.107Z [info]: Incoming POST : /employees/login
+2024-02-29T20:17:46.525Z [info]: Incoming POST : /employees/login
+2024-02-29T20:19:41.759Z [info]: Incoming POST : /employees/login
+2024-02-29T20:19:51.031Z [info]: Incoming POST : /employees/login
+2024-02-29T20:20:27.209Z [info]: Incoming POST : /employees/login
+2024-02-29T20:20:56.303Z [info]: Incoming POST : /employees/login
+2024-02-29T20:20:59.764Z [info]: Incoming POST : /employees/login
+2024-02-29T20:21:05.215Z [info]: Incoming POST : /employees/register
+2024-02-29T20:21:10.768Z [info]: Incoming POST : /employees/register
+2024-02-29T20:21:26.872Z [info]: Incoming GET : /employees/protected
+2024-02-29T20:21:51.214Z [info]: Incoming GET : /employees/protected
+2024-02-29T20:21:54.046Z [info]: Incoming GET : /employees/protected
+2024-02-29T20:22:11.400Z [info]: Incoming POST : /employees/login
+2024-02-29T20:22:28.074Z [info]: Incoming GET : /employees/protected
+2024-02-29T20:24:08.201Z [info]: Incoming GET : /employees/protected
+2024-02-29T20:24:55.532Z [info]: Incoming POST : /employees/register
+2024-02-29T20:25:00.138Z [info]: Incoming POST : /employees/login
+2024-02-29T20:26:41.439Z [info]: Incoming GET : /employees/protected
+2024-02-29T20:31:38.965Z [info]: Incoming PUT : /tickets/2
+2024-02-29T20:32:03.549Z [info]: Incoming PUT : /tickets/07013ac0-abcb-49c2-b119-7e0581645665
+2024-02-29T20:32:15.569Z [info]: Incoming PUT : /tickets/07013ac0-abcb-49c2-b119-7e0581645665
+2024-02-29T20:32:24.522Z [info]: Incoming PUT : /tickets/3
+2024-02-29T20:32:27.806Z [info]: Incoming PUT : /tickets/1
+2024-02-29T20:32:34.672Z [info]: Incoming GET : /tickets?status=pending
+2024-02-29T20:47:58.610Z [info]: Incoming PUT : /tickets/07013ac0-abcb-49c2-b119-7e0581645665
+2024-02-29T20:48:51.189Z [info]: Incoming PUT : /tickets/07013ac0-abcb-49c2-b119-7e0581645665
+2024-02-29T20:49:00.463Z [info]: Incoming PUT : /tickets/07013ac0-abcb-49c2-b119-7e0581645665
+2024-02-29T20:49:30.418Z [info]: Incoming PUT : /tickets/07013ac0-abcb-49c2-b119-7e0581645665
+2024-02-29T20:49:33.728Z [info]: Incoming PUT : /tickets/07013ac0-abcb-49c2-b119-7e0581645665
+2024-02-29T20:51:39.809Z [info]: Incoming POST : /tickets
+2024-02-29T20:51:40.008Z [error]: Cannot read properties of undefined (reading 'id')
+2024-02-29T20:52:51.918Z [info]: Incoming POST : /tickets
+2024-02-29T20:56:04.409Z [info]: Incoming POST : /tickets
+2024-02-29T20:58:26.581Z [info]: Incoming POST : /tickets
+2024-02-29T20:59:26.671Z [info]: Incoming PUT : /tickets/07013ac0-abcb-49c2-b119-7e0581645665
+2024-02-29T20:59:34.283Z [info]: Incoming PUT : /tickets/07013ac0-abcb-49c2-b119-7e0581645665
+2024-02-29T21:01:39.731Z [info]: Incoming GET : /tickets?author=1
+2024-02-29T21:04:36.816Z [info]: Incoming GET : /tickets?author=1
+2024-02-29T21:07:04.410Z [info]: Incoming GET : /tickets?author=1
+2024-03-01T04:03:21.554Z [info]: Incoming POST : /employees/register
+2024-03-01T04:10:49.022Z [info]: Incoming POST : /employees/register
+2024-03-01T04:11:18.777Z [info]: Incoming POST : /employees/register
+2024-03-01T04:11:35.914Z [info]: Incoming POST : /employees/register
+2024-03-01T04:11:43.424Z [info]: Incoming POST : /employees/login
+2024-03-01T04:11:58.741Z [info]: Incoming POST : /employees/login
+2024-03-01T04:13:17.095Z [info]: Incoming POST : /tickets
+2024-03-01T04:18:06.584Z [info]: Incoming POST : /tickets
+2024-03-01T04:18:10.869Z [info]: Incoming POST : /tickets
+2024-03-01T04:18:14.778Z [info]: Incoming POST : /tickets
+2024-03-01T04:20:01.865Z [info]: Incoming GET : /tickets?status=pending
+2024-03-01T04:21:58.160Z [info]: Incoming PUT : /tickets/1
+2024-03-01T04:24:54.198Z [info]: Incoming PUT : /tickets/1
+2024-03-01T04:25:00.543Z [info]: Incoming PUT : /tickets/3
+2024-03-01T04:25:19.056Z [info]: Incoming GET : /tickets/1
+2024-03-01T04:26:00.252Z [info]: Incoming PUT : /tickets/1
+2024-03-01T04:28:02.502Z [info]: Incoming PUT : /tickets/1
+2024-03-01T04:28:50.471Z [info]: Incoming PUT : /tickets/2
+2024-03-01T04:31:59.830Z [info]: Incoming GET : /tickets?author=1
+2024-03-01T04:34:03.744Z [info]: Incoming GET : /tickets?author=1
+2024-03-01T04:35:20.344Z [info]: Incoming GET : /tickets?author=1
+2024-03-01T04:35:28.005Z [info]: Incoming GET : /tickets?author=2
+2024-03-01T04:36:56.662Z [info]: Incoming GET : /tickets?author=2
+2024-03-01T04:37:05.851Z [info]: Incoming GET : /tickets?author=2
+2024-03-01T06:37:24.981Z [info]: Incoming POST : /employees/register
+2024-03-01T06:37:34.078Z [info]: Incoming POST : /employees/register
+2024-03-01T06:37:42.873Z [info]: Incoming POST : /employees/login
+2024-03-01T06:37:56.370Z [info]: Incoming POST : /employees/login
+2024-03-01T06:38:05.221Z [info]: Incoming POST : /tickets
+2024-03-01T06:38:17.310Z [info]: Incoming POST : /tickets
+2024-03-01T06:38:25.079Z [info]: Incoming POST : /tickets
+2024-03-01T06:38:45.262Z [info]: Incoming GET : /tickets?status=pending
+2024-03-01T06:39:30.031Z [info]: Incoming PUT : /tickets/1
+2024-03-01T06:39:57.104Z [info]: Incoming PUT : /tickets/1
+2024-03-01T06:40:20.403Z [info]: Incoming PUT : /tickets/2
+2024-03-01T06:40:45.461Z [info]: Incoming GET : /tickets?author=2
+2024-03-01T15:08:38.803Z [info]: Incoming POST : /employees/register
+2024-03-01T15:08:55.443Z [info]: Incoming POST : /employees/register
+2024-03-01T15:09:06.169Z [info]: Incoming POST : /employees/login
+2024-03-01T15:09:13.958Z [info]: Incoming POST : /employees/login
+2024-03-01T15:09:28.544Z [info]: Incoming POST : /tickets
+2024-03-01T15:09:38.863Z [info]: Incoming POST : /tickets
+2024-03-01T15:09:41.553Z [info]: Incoming POST : /tickets
+2024-03-01T15:09:56.244Z [info]: Incoming GET : /tickets?author=2
+2024-03-01T15:10:06.853Z [info]: Incoming GET : /tickets?status=pending
